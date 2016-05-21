@@ -1,0 +1,21 @@
+{
+  "Scala (abandon)": {
+    "args": ["-jar", "programs/abandon.jar", "-c", "fixtures/abandon/examples/complete/accounts.conf"]
+  },
+  "Nashorn (Simple)": {
+    "args": ["-cp",  "programs", "NashornBenchmark"]
+  },
+  "javac": {
+    "args": ["-cp", "programs", "FrozenCompile"]
+  },
+  "NQueens and Sort": {
+    "args": ["-cp", "programs", "Bench"]
+  },
+  "kawa-scheme NQueens": {
+    "args": ["-jar", "programs/kawa-2.0.jar", "-f", "fixtures/kawa/nqueens2.sch"]
+  },
+  "Rhino: binary-trees and controlflow-recursive": {
+    "cwd": "fixtures/rhino",
+    "args": ["-jar", "../../programs/rhino1.7.6.jar", "-f", "run.js"]
+  }
+}
